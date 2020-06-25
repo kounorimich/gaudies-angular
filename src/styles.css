@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.container {
+  /*max-width: 1500px;*/
+  background-color:ghostwhite;
+}
+
+.menubar {
+  background-color:darkcyan;
+  border:solid 3px black;
+  display: flex;
+  vertical-align: middle;
+  height:10vw;
+  max-height: 60px;
+  align-items: center;
+
+}
+img {
+  border: solid 1px red;
+  object-fit: fill;
+  width: 100%;
+}
+
+.band-logo {
+  max-height: 60px;
+}
+
+.menu-item {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  display: inline;
+}
+
+
+body {
+  padding-top:60px;
+}
+
+.work {
+  padding: 1vw;
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 30px 0;
+  bottom: 0;
+}
+
+.jacket-img {
+
+}
